@@ -2,7 +2,6 @@
 #pyrogram
 TgCrypto
 pyromod==1.5
-pip3 install  -r 
 
 
 
@@ -14,4 +13,3 @@ git+https://github.com/vpcreatz/pyrofork-adv.git
 
 # --- For-Web-Response ------- #
 aiohttp
-pip3 install  -r 
