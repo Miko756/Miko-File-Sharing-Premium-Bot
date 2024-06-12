@@ -1,5 +1,5 @@
 # --- For-Bot-Working --------- #
-pyrogram
+#pyrogram
 TgCrypto
 pyromod==1.5
 
@@ -9,7 +9,7 @@ pyromod==1.5
 pymongo
 dnspython
 
-
+git+https://github.com/vpcreatz/pyrofork-adv.git
 
 # --- For-Web-Response ------- #
 aiohttp
