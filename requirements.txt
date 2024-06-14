@@ -1,15 +1,19 @@
 # --- For-Bot-Working --------- #
-#pyrogram
+pyrogram
 TgCrypto
-pyromod==1.5
-
-
-
+pyromod
 # --- For-Database ------------ #
 pymongo
+motor
+umongo
 dnspython
-
+marshmallow
 git+https://github.com/vpcreatz/pyrofork-adv.git
-
 # --- For-Web-Response ------- #
+pytz
+requests
+bs4
+shortzy
 aiohttp
+aiofiles
+asyncio
