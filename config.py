@@ -14,18 +14,18 @@ from logging.handlers import RotatingFileHandler
 
 
 
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
-APP_ID = int(os.environ.get("APP_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7178665162:AAE0IzR10bf0BpUrFPSgsQSujbsV6L7zEJY")
+APP_ID = int(os.environ.get("APP_ID", "29759992"))
+API_HASH = os.environ.get("API_HASH", "61f150cdca64b2916fa499d107393140")
 
 
-OWNER = os.environ.get("OWNER", "") #Owner username
-OWNER_ID = int(os.environ.get("OWNER_ID", "")) #Owner user id
-DB_URL = os.environ.get("DB_URL", "")
+OWNER = os.environ.get("OWNER", "Empire_756") #Owner username
+OWNER_ID = int(os.environ.get("OWNER_ID", "5787502520")) #Owner user id
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://ZeroTwo:aloksingh@zerotwo2.201lbx7.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002077715264"))
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "0"))
 
@@ -34,7 +34,7 @@ SECONDS = int(os.getenv("SECONDS", "600")) # auto delete in seconds
 
 
 
-PORT = os.environ.get("PORT", "8080")
+PORT = os.environ.get("PORT", "8040")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 
@@ -43,8 +43,8 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
 
 try:
-    ADMINS=[7085541484]
-    for x in (os.environ.get("ADMINS", "5115691197 6273945163 6103092779 5231212075").split()):
+    ADMINS=[5787502520]
+    for x in (os.environ.get("ADMINS", "5115691197 6273945163 6103092779 6917183011 5231212075").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
